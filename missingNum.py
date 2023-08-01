@@ -34,3 +34,7 @@ class Solution:
         # code here
         ns = n*(n+1)//2
         return ns-sum(array)
+
+-------------------------------------------------------------------------------------------------------------------
+
+# We can solve this problem by using the formula for the sum of the first N natural numbers, which is N*(N+1)/2. This gives us the total sum we should have if no number is missing. We then subtract the sum of the elements in the array from this total, which will give us the missing number.
